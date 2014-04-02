@@ -1,0 +1,143 @@
+Cmp-Mod V01 Created by CvPCB (2010-03-14)-final date = Sun 30 Mar 2014 09:49:52 BST
+
+BeginCmp
+TimeStamp = /533710A4;
+Reference = C1;
+ValeurCmp = 0.1uF;
+IdModule  = C2;
+EndCmp
+
+BeginCmp
+TimeStamp = /53371120;
+Reference = C2;
+ValeurCmp = 10uF;
+IdModule  = C1;
+EndCmp
+
+BeginCmp
+TimeStamp = /533688E9;
+Reference = C3;
+ValeurCmp = 0.1uF;
+IdModule  = C2;
+EndCmp
+
+BeginCmp
+TimeStamp = /53371170;
+Reference = C4;
+ValeurCmp = 1uF;
+IdModule  = C1;
+EndCmp
+
+BeginCmp
+TimeStamp = /53368F9B;
+Reference = C5;
+ValeurCmp = 0.1uF;
+IdModule  = C2;
+EndCmp
+
+BeginCmp
+TimeStamp = /53371052;
+Reference = D1;
+ValeurCmp = 1N4001;
+IdModule  = D3;
+EndCmp
+
+BeginCmp
+TimeStamp = /53371088;
+Reference = D2;
+ValeurCmp = 1N4001;
+IdModule  = D3;
+EndCmp
+
+BeginCmp
+TimeStamp = /533687E2;
+Reference = IC1;
+ValeurCmp = ATMEGA328-P;
+IdModule  = DIP-28__300_ELL;
+EndCmp
+
+BeginCmp
+TimeStamp = /53371028;
+Reference = P1;
+ValeurCmp = PI_BATT_CONN;
+IdModule  = PIN_ARRAY_2X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /53368808;
+Reference = P2;
+ValeurCmp = CONN_13X2;
+IdModule  = pin_array_13x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /53371195;
+Reference = P3;
+ValeurCmp = PI_POWER_CONN;
+IdModule  = PIN_ARRAY_2X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /533692B0;
+Reference = P4;
+ValeurCmp = LEFT_MOTOR;
+IdModule  = 3_WAY_TERMINAL_BLOCK;
+EndCmp
+
+BeginCmp
+TimeStamp = /53369275;
+Reference = P5;
+ValeurCmp = RIGHT_MOTOR;
+IdModule  = 3_WAY_TERMINAL_BLOCK;
+EndCmp
+
+BeginCmp
+TimeStamp = /533696BE;
+Reference = P6;
+ValeurCmp = MOTOR_BATT_CONN;
+IdModule  = PIN_ARRAY_2X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /5336BB89;
+Reference = P7;
+ValeurCmp = MOTOR_POWER_SWITCH;
+IdModule  = 2_WAY_TERMINAL_BLOCK;
+EndCmp
+
+BeginCmp
+TimeStamp = /5337D453;
+Reference = P8;
+ValeurCmp = ISP_HEADER;
+IdModule  = ISP_HEADER;
+EndCmp
+
+BeginCmp
+TimeStamp = /53371145;
+Reference = R1;
+ValeurCmp = 100K;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /533710C7;
+Reference = RV1;
+ValeurCmp = 300K;
+IdModule  = TRIMMER_POT;
+EndCmp
+
+BeginCmp
+TimeStamp = /53370FF0;
+Reference = U1;
+ValeurCmp = LM317;
+IdModule  = TO220_VERT;
+EndCmp
+
+BeginCmp
+TimeStamp = /53368E5C;
+Reference = U2;
+ValeurCmp = SN75440NE;
+IdModule  = DIP-16__300_ELL;
+EndCmp
+
+EndListe
