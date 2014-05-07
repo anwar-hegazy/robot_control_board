@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sun 30 Mar 2014 09:27:06 BST
+EESchema Schematic File Version 2  date Wed 02 Apr 2014 22:33:26 BST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -29,14 +29,13 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:BravinerComponentLibrary
 LIBS:robot_control_board-cache
 EELAYER 24  0
 EELAYER END
 $Descr A4 11700 8267
 Sheet 1 1
 Title ""
-Date "30 mar 2014"
+Date "2 apr 2014"
 Rev ""
 Comp ""
 Comment1 ""
@@ -45,12 +44,17 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 Wire Wire Line
+	6850 2650 6100 2650
+Wire Wire Line
+	6100 2650 6100 3400
+Wire Wire Line
+	6100 3400 5350 3400
+Wire Wire Line
 	6800 5550 5500 5550
 Wire Wire Line
 	5500 5550 5500 3800
 Wire Wire Line
 	5500 3800 5350 3800
-Connection ~ 5700 2650
 Wire Wire Line
 	6800 5350 5700 5350
 Wire Wire Line
@@ -86,7 +90,7 @@ Wire Wire Line
 Wire Wire Line
 	3450 6900 2650 6900
 Wire Wire Line
-	3250 6900 3250 6950
+	3250 6950 3250 6900
 Wire Wire Line
 	2650 6900 2650 7100
 Wire Wire Line
@@ -127,7 +131,7 @@ Wire Wire Line
 	5850 3650 8050 3650
 Connection ~ 8050 3450
 Wire Wire Line
-	6850 3650 6850 3450
+	6850 3450 6850 3650
 Wire Wire Line
 	4850 750  6600 750 
 Wire Wire Line
@@ -139,7 +143,7 @@ Wire Wire Line
 Wire Wire Line
 	6150 2350 5350 2350
 Wire Wire Line
-	5350 2650 6850 2650
+	5700 2650 5350 2650
 Wire Wire Line
 	6850 2550 6500 2550
 Wire Wire Line
@@ -188,11 +192,7 @@ Wire Wire Line
 Wire Wire Line
 	5350 2750 6850 2750
 Wire Wire Line
-	5350 2850 6100 2850
-Wire Wire Line
-	6100 2850 6100 3050
-Wire Wire Line
-	6100 3050 6850 3050
+	5350 2850 5650 2850
 Wire Wire Line
 	6350 3250 6850 3250
 Connection ~ 6600 3250
@@ -229,11 +229,11 @@ Wire Wire Line
 	1650 7250 2400 7250
 Connection ~ 1800 7250
 Wire Wire Line
-	3250 7450 3250 7350
+	3250 7350 3250 7450
 Wire Wire Line
 	1800 7450 1800 7000
 Wire Wire Line
-	3700 6450 3700 6400
+	3700 6400 3700 6450
 Connection ~ 3700 6400
 Wire Wire Line
 	4050 7450 4050 7200
@@ -266,7 +266,12 @@ Wire Wire Line
 	5650 2850 5650 5450
 Wire Wire Line
 	5650 5450 6800 5450
-Connection ~ 5650 2850
+Wire Wire Line
+	5350 3500 6150 3500
+Wire Wire Line
+	6150 3500 6150 3050
+Wire Wire Line
+	6150 3050 6850 3050
 $Comp
 L ISP_HEADER P8
 U 1 1 5337D453
@@ -306,8 +311,6 @@ NoConn ~ 5350 4250
 NoConn ~ 5350 4150
 NoConn ~ 5350 4050
 NoConn ~ 5350 3950
-NoConn ~ 5350 3500
-NoConn ~ 5350 3400
 NoConn ~ 5350 3300
 NoConn ~ 5350 3200
 NoConn ~ 5350 3050

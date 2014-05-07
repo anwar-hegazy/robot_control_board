@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sun 30 Mar 2014 09:26:39 BST
+EESchema Schematic File Version 2  date Sun 30 Mar 2014 09:27:06 BST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -268,10 +268,10 @@ Wire Wire Line
 	5650 5450 6800 5450
 Connection ~ 5650 2850
 $Comp
-L ISP_HEADER P?
+L ISP_HEADER P8
 U 1 1 5337D453
 P 7250 5300
-F 0 "P?" H 7250 5650 60  0000 C CNN
+F 0 "P8" H 7250 5650 60  0000 C CNN
 F 1 "ISP_HEADER" H 7250 4900 60  0000 C CNN
 	1    7250 5300
 	1    0    0    -1  
